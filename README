@@ -1,0 +1,53 @@
+perl-XML-NamespaceSupport
+-------------------------------------------
+Perl module which adds support for XML namespaces.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~rberjon/XML-NamespaceSupport/
+
+Canonical download:
+  http://www.cpan.org/authors/id/R/RB/RBERJON/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-XML-NamespaceSupport-1.09-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-XML-NamespaceSupport-1.09-1.cygport all
+
+This will create:
+  /usr/src/perl-XML-NamespaceSupport-1.09-1-src.tar.bz2
+  /usr/src/perl-XML-NamespaceSupport-1.09-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-XML-NamespaceSupport.sh
+  /usr/lib/perl5/vendor_perl/5.8/XML/NamespaceSupport.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/NamespaceSupport/.packlist
+  /usr/share/doc/Cygwin/perl-XML-NamespaceSupport-1.09.README
+  /usr/share/doc/perl-XML-NamespaceSupport-1.09/Changes
+  /usr/share/doc/perl-XML-NamespaceSupport-1.09/README
+  /usr/share/man/man3/XML.NamespaceSupport.3pm.gz
+  /usr/share/perl/cygwin-pods/XML-NamespaceSupport.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.09-1 -----
+Version bump.
+
+----- version 1.08-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
