@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin perl
+requires: perl
 sdesc: "Perl module for XML namespace support"
 ldesc: "Perl module which adds support for XML namespaces."
