@@ -1,0 +1,9 @@
+CPAN_AUTHOR=perigrin
+inherit perl
+
+NAME="perl-XML-NamespaceSupport"
+VERSION=1.11
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for XML namespace support"
+DESCRIPTION="Perl module which adds support for XML namespaces."
